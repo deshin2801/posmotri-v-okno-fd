@@ -47,7 +47,7 @@ ol {
   font-size: 18px;
   background-color: #1b1919;  
   align-items: center;
-  justify-content: center;
+justify-content: center;
 }
 
 .content {
@@ -248,6 +248,7 @@ ol {
 .button:focus {
   outline: none;
 }
+
 .button:focus-visible {
   outline: 1px solid #fff;
   outline-offset: 1px;
@@ -260,6 +261,7 @@ ol {
 .content__list-item:active {
   background-color: #545050;
 }
+
 .content__list-item:focus {
   outline: none;
 }
