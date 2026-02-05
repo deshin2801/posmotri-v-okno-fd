@@ -45,14 +45,11 @@ ol {
   color: #fff;
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
-  background-color: #1b1919;
+  background-color: #1b1919;  
   align-items: center;
-  justify-content: center;
+justify-content: center;
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> f545b4ee8353c94a612bb891dcff5879ab1064f4
 .content {
   display: flex;
   align-items: end;
@@ -105,13 +102,10 @@ ol {
   white-space: nowrap;
   text-overflow: ellipsis;
   width: 196px;
-
 }
+
 .result__video-container {
-<<<<<<< HEAD
   position: relative;
-=======
->>>>>>> f545b4ee8353c94a612bb891dcff5879ab1064f4
   width: 711px;
   height: 386px;
   margin-bottom: 16px;
@@ -191,15 +185,11 @@ ol {
   outline: none;
 }
 
-.search-form__label:has(:focus-visible) {
-  outline: 1px solid #fff;
-  outline-offset: 1px;
+.search-form__label:has(:focus-visible){  
+outline: 1px solid #fff;  
+outline-offset: 1px;
 }
-<<<<<<< HEAD
 
-
-=======
->>>>>>> f545b4ee8353c94a612bb891dcff5879ab1064f4
 .search-form__pseudo-checkbox {
   width: 19px;
   height: 19px;
@@ -221,20 +211,9 @@ ol {
   cursor: pointer;
 }
 
-.search-form__checkbox:checked + .search-form__pseudo-checkbox::after {
+.search-form__checkbox:checked + .search-form__pseudo-checkbox::after {  
   opacity: 1;
 } 
-
-<<<<<<< HEAD
-=======
-.result__video-container {
-  position: relative;
-}
-
->>>>>>> f545b4ee8353c94a612bb891dcff5879ab1064f4
-.content__list-container {
-  position: relative;
-}
 
 .button {
   height: 34px;
@@ -294,6 +273,7 @@ ol {
   padding-right: 3px;
   padding-left: 3px;
 }
+
 /* Кастомный скроллбар */
 .custom-scrollbar::-webkit-scrollbar {
   width: 4px;
