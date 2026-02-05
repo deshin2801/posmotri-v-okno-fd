@@ -139,7 +139,7 @@ ol {
 }
 
 .content__list-item:focus-visible {
-  outline: 1px solid #fff
+  outline: 1px solid #fff;
 }
 
 .content__list-item {
@@ -206,7 +206,7 @@ ol {
 }
 
 .search-form__label:has(:focus-visible) {
-  outline: 1px solid #fff;  
+  outline: 1px solid #fff;
   outline-offset: 1px;
 }
 
