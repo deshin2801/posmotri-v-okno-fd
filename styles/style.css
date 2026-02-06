@@ -68,6 +68,7 @@ ol {
   display: flex;
   flex-direction: column;
   height: 298px;
+  width: 400px;
   overflow-y: auto;
   gap:30px;
   position: relative;
@@ -137,8 +138,7 @@ ol {
 }
 
 .content__card-link:hover {
-  text-decoration: underline;
-  
+  text-decoration: underline; 
 }
 
 .content__card-link:active {
@@ -202,7 +202,6 @@ ol {
   appearance: none;
   font-family: inherit;
   font-size: 18px;
-  text-decoration: none;
 }
 
 .search-form__textfield::placeholder {
@@ -234,17 +233,13 @@ ol {
   opacity: 0;
 }
 
-.search-form__label:hover {
+.search-form__label:hover:not(:has(input.search-form__textfield)) {
   cursor: pointer;
   text-decoration: underline 1px #fff;
 }
 
 .search-form__checkbox:checked + .search-form__pseudo-checkbox::after {
   opacity: 1;
-}
-
-.search-form__textfield:hover {
-  text-decoration: none;
 }
 
 .button {
