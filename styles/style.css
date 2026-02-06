@@ -138,7 +138,7 @@ ol {
 }
 
 .content__card-link:hover {
-  text-decoration: underline; 
+  text-decoration: underline 1px #fff;
 }
 
 .content__card-link:active {
